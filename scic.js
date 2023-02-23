@@ -16,18 +16,8 @@ const students = [
   { name: "Ratul", email: "ratul@gamil.com", avg: 57, fiftyPercent: false },
   { name: "Jobaer", email: "jobaer@gamil.com", avg: 42, fiftyPercent: false },
   { name: "Hasib", email: "hasib@gamil.com", avg: 52, fiftyPercent: true },
-  {
-    name: "Habibullah",
-    email: "habibullah@gamil.com",
-    avg: 32,
-    fiftyPercent: false,
-  },
-  {
-    name: "Habiba",
-    email: "ummehabiba@gamil.com",
-    avg: 57,
-    fiftyPercent: true,
-  },
+  { name: "Tanvir", email: "ta@gamil.com", avg: 32, fiftyPercent: false },
+  { name: "Jeri", email: "jeri@gamil.com", avg: 57, fiftyPercent: true },
   { name: "Sayma", email: "sayma@gamil.com", avg: 37, fiftyPercent: true },
 ];
 
@@ -36,5 +26,4 @@ const scic = students.filter((x) => x.avg >= 50 && x.fiftyPercent === true);
 
 /*now I get full array those who fill the conditions, but I need only name. So, to get a single value inside an object and return, I have to use map.*/
 const getChance = scic.map((students) => students.name);
-
 console.log(getChance);
