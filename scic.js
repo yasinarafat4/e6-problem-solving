@@ -7,12 +7,7 @@ SCIC conditions:
 */
 
 const students = [
-  {
-    name: "Yasin Arafat",
-    email: "yasin@gamil.com",
-    avg: 56,
-    fiftyPercent: true,
-  },
+  { name: "Yasin", email: "yasin@gamil.com", avg: 56, fiftyPercent: true },
   { name: "Ratul", email: "ratul@gamil.com", avg: 57, fiftyPercent: false },
   { name: "Jobaer", email: "jobaer@gamil.com", avg: 42, fiftyPercent: false },
   { name: "Hasib", email: "hasib@gamil.com", avg: 52, fiftyPercent: true },
