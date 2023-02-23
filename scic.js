@@ -1,6 +1,7 @@
-/*Problem: Find 'SCIC' student using Filter
+/*
+Problem: Find 'SCIC' student using Filter
 
-SCIC conditions:
+Conditions:
 
 1. Average marks has to be 50 or more
 2. Marks has to be at list 50%
