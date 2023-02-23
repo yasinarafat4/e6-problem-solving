@@ -1,5 +1,5 @@
 /*
-Problem: Convert  To Single Object (Advanced)
+Problem: Convert To Single Object (Advanced)
 
 Conditions:
 
@@ -19,6 +19,8 @@ const persons = [
 ];
 
 /*
+Sample:
+
 const info = {};
 info["name"] = "arafat";
 info["age"] = 23;
